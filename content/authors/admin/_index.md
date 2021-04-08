@@ -77,4 +77,5 @@ Hello! I am a Ph.D. student at Cornell University, advised by Prof. Kilian Q. We
 
 Before joining Cornell University, I had the pleasure of working on a variety of topics including autonomous driving, deep reinforcement learning, and applications of natural language processing.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+View my professional summary {{< staticref "media/resume.pdf" "newtab" >}}here{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
