@@ -1,7 +1,7 @@
 ---
 # Activate this widget? true/false
 active: true
-title: "Stay Positive Non-Negative Image Synthesis for Augmented Reality"
+title: "Stay Positive: Non-Negative Image Synthesis for Augmented Reality"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
