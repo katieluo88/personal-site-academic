@@ -1,4 +1,6 @@
 ---
+# Activate this widget? true/false
+active: false
 title: "An example conference paper"
 
 # Authors
