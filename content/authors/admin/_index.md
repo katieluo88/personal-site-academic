@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: kzl6@cornell.edu  # '/#contact'
+  link: mailto:kzl6@cornell.edu  # '/#contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/katielulula
@@ -73,7 +73,7 @@ email: "kzl6@cornell.edu"
 highlight_name: false
 ---
 
-"Testing build". Hello! I am a Ph.D. student at Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Serge Belongie. My research interests mostly lies in machine learning and computer learning for real world applications.
+Hello! I am a Ph.D. student at Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Serge Belongie. My research interests mostly lies in machine learning and computer learning for real world applications.
 
 Before joining Cornell University, I had the pleasure of working on a variety of topics including autonomous driving, deep reinforcement learning, and applications of natural language processing.
 
