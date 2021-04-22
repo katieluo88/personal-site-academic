@@ -84,4 +84,4 @@ image:
 # slides: example
 ---
 
-Check out our [project page](content/projectPages/stayPositive/index.html) for demos, code, and more.
+Check out our [project page](index.html) for demos, code, and more.
