@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
                                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>PointFlow</title>
+        <title>StayPositive</title>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111714927-1"></script>
@@ -20,7 +20,7 @@
             gtag('config', 'UA-111714927-1');
         </script>
     </head>
-    <body class="container" style="max-width:780px">
+    <body class="container" style="max-width:1000px">
 
         <!-- Title -->
         <div>
@@ -32,10 +32,10 @@
 
             <!-- authors -->
             <div class='row text-center h5 font-weight-bold pl-4 pr-4 mb-4'>
-                <a class="col-md-6 col-xs-6" href=""><span>Katie Luo*</span></a>
+                <a class="col-md-3 col-xs-6" href=""><span>Katie Luo*</span></a>
                 <a class="col-md-3 col-xs-6" href="http://www.guandaoyang.com"><span>Guandao Yang*</span></a>
-                <a class="col-md-6 col-xs-6" href=""><span>Wenqi Xian</span></a>
-                <a class="col-md-6 col-xs-6" href=""><span>Harald Haraldsson</span></a>
+                <a class="col-md-3 col-xs-6" href=""><span>Wenqi Xian</span></a>
+                <a class="col-md-3 col-xs-6" href=""><span>Harald Haraldsson</span></a>
                 <a class="col-md-6 col-xs-6" href="http://home.bharathh.info/"><span>Bharath Hariharan</span></a>
                 <a class="col-md-6 col-xs-6" href="http://blogs.cornell.edu/techfaculty/serge-belongie/"><span>Serge Belongie</span></a>
             </div>
@@ -51,15 +51,48 @@
                 </div>
             </div>
 
-            <div class='row text-center h5 font-weight-light pl-4 pr-4 mb-4'>
+            <!-- <div class='row text-center h5 font-weight-light pl-4 pr-4 mb-4'>
                 <span class="col-md-12 col-xs-12" style="color:#007bff">*Equal contribution</span>
-            </div>
+            </div> -->
+            <div class='row justify-content-center'  style="position: relative; width: 100%;height: 0;padding-bottom: 25%; margin:0">
+                <img 
+                    class="img-fluid rounded mx-auto d-block" 
+                    src="assets/banner.gif" alt="StayPositive Method Intro" 
+                    style="position:absolute; width:100%; height:100%; top:0px; left:0px;" 
+                >
+			</div>
 
         </div>
 
         <!-- Paper section -->
         <div>
-            <hr> Under Construction!
+            <hr>
+            <div class='row'>
+                <div class='col-md-3 col-sm-3 col-xs-12 text-center col-sm-3'>
+                    <div class="row mt-4">
+                        <a href="stayPositive.pdf" style="max-width:200px; margin-left:auto; margin-right:auto">
+                            <img src="assets/paper.png" alt="paper-snapshot" class="img-thumbnail" width="80%" style="box-shadow: 10px 10px 5px grey;">
+                        </a>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <a class="h5" href="https://github.com/katieluo88/privateStayPositive" style="margin-right:10px">
+                                <span>[Code]</span>
+                            </a>
+                            <a class="h5" href="cite.bib" target="_blank">
+                                <span>[Bibtex]</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-9 col-sm-9 col-xs-12'>
+                    <p class='h4 font-weight-bold '>Abstract</p>
+                    <p style='line-height:1;'> 
+                        In applications such as optical see-through and projector augmented reality, producing images amounts to solving non-negative image generation, where one can only add light to an existing image.
+                        Most image generation methods, however, are ill-suited to this problem setting, as they make the assumption that one can assign arbitrary color to each pixel. In fact, naive application of existing methods fails even in simple domains such as MNIST digits, since one cannot create darker pixels by adding light. We know, however, that the human visual system can be fooled by optical illusions involving certain spatial configurations of brightness and contrast. Our key insight is that one can leverage this behavior to produce high quality images with negligible artifacts. For example, we can create the illusion of darker patches by brightening surrounding pixels. We propose a novel optimization procedure to produce images that satisfy both semantic and non-negativity constraints. Our approach can incorporate existing state-of-the-art methods, and exhibits strong performance in a variety of tasks including image-to-image translation and style transfer.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <!-- Video -->
