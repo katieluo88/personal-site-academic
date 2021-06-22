@@ -39,7 +39,7 @@ experience:
     company: Uber ATG
     company_url: ''
     location: Toronto
-    date_start: '2020-06-15'
-    date_end: '2021-06-15'
+    date_start: '2019-06-15'
+    date_end: '2020-06-15'
     # description: Taught electronic engineering and researched semiconductor physics.
 ---

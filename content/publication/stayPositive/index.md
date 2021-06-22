@@ -1,6 +1,6 @@
 ---
 # Activate this widget? true/false
-active: true
+active: false
 title: "Stay Positive: Non-Negative Image Synthesis for Augmented Reality"
 
 # Authors
@@ -52,7 +52,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/katieluo88/StayPositive'
 url_dataset: ''
 url_poster: ''
 url_project: 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/stayPositive.html'
