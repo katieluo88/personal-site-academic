@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: rose
+theme: earth  # rose
 day_night: true
 font: my_rose
 font_size: M
@@ -105,7 +105,7 @@ copyright_license:
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
-abstract_length: 135
+abstract_length: 100
 plugins_js: []
 avatar:
   gravatar: false

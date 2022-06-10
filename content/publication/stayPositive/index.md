@@ -32,8 +32,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In the *Conference on Computer Vision and Pattern Recognition* (Oral)
-publication_short: In *CVPR* (Oral)
+publication: In *Conference on Computer Vision and Pattern Recognition 2021* (Oral)
+publication_short: In *CVPR 2021* (Oral)
 
 abstract: "In applications such as optical see-through and projector augmented reality, producing images amounts to solving non-negative image generation, where one can only add light to an existing image.
 Most image generation methods, however, are ill-suited to this problem setting, as they make the assumption that one can assign arbitrary color to each pixel. In fact, naive application of existing methods fails even in simple domains such as MNIST digits, since one cannot create darker pixels by adding light. We know, however, that the human visual system can be fooled by optical illusions involving certain spatial configurations of brightness and contrast. Our key insight is that one can leverage this behavior to produce high quality images with negligible artifacts. For example, we can create the illusion of darker patches by brightening surrounding pixels. We propose a novel optimization procedure to produce images that satisfy both semantic and non-negativity constraints. Our approach can incorporate existing state-of-the-art methods, and exhibits strong performance in a variety of tasks including image-to-image translation and style transfer."
@@ -41,7 +41,7 @@ Most image generation methods, however, are ill-suited to this problem setting, 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+tags: ["ar", "first-author"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -51,14 +51,14 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Stay_Positive_Non-Negative_Image_Synthesis_for_Augmented_Reality_CVPR_2021_paper.pdf'
 url_code: 'https://github.com/katieluo88/StayPositive'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/stayPositive.html'
+url_project: 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/'  # 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/stayPositive.html'
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=wYEbZWtQ-T4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -1,3 +1,17 @@
+There seems to be a bug with the editing of the co-authorship... not sure why. Workaround is to manually edit them inside the public/*.html files.
+
+To update:
+
+check with: ssh kzl6@linux.coecis.cornell.edu
+run:
+ - hugo
+ - cp content/publication/stayPositive/index.html public/publication/staypositive/.
+ - [update all the co-authorship stars manually ;--;]
+ - scp -r public/* kzl6@linux.coecis.cornell.edu:/cs/people/kzl6
+
+todos:
+ - fix the size adjustments... currently it still looks bad :(
+
 <p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
 
 # Academic Template for [Hugo](https://github.com/gohugoio/hugo)

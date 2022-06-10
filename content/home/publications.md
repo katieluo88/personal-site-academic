@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 20
 
 title: Publications
 subtitle: '(* denotes equal contribution)'
@@ -23,18 +23,18 @@ content:
   order: desc
   # Filter on criteria
   filters:
-    tag: ''
+    tag: ''  # ['self-driving', "first-author"]
     category: ''
     publication_type: ''
     author: ''
-    exclude_featured: true
+    exclude_featured: false
 design:
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 4
 ---
 
 <!-- {{% callout note %}}
