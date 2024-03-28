@@ -9,8 +9,11 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: Publications
-subtitle: '(* denotes equal contribution)'
+title: Featured Publications
+# subtitle: '(* denotes equal contribution)'
+subtitle: '(* denotes equal contribution)<br><br>
+
+For an up-to-date list of publications, check out my [Google Scholar](https://scholar.google.com/citations?user=qlmK27YAAAAJ&hl=en).'
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -23,7 +26,7 @@ content:
   order: desc
   # Filter on criteria
   filters:
-    tag: ''  # ['self-driving', "first-author"]
+    tag: 'featured'  # ['self-driving', "first-author"]
     category: ''
     publication_type: ''
     author: ''
@@ -34,7 +37,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 4
+  view: 2  # 4
 ---
 
 <!-- {{% callout note %}}

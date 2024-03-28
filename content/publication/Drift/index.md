@@ -7,13 +7,15 @@ title: "Learning to Detect Mobile Objects from LiDAR Scans Without Labels"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Yurong You*
 - Katie Z Luo*
+- Zhenzhen Liu*
+- Xiangyu Chen*
+- Yurong You
 - Cheng Perng Phoo
-- Wei-Lun Chao 
+- Sagie Benaim
+- Mark Campbell 
 - Wen Sun 
 - Bharath Hariharan 
-- Mark Campbell
 - Kilian Q. Weinberger
 
 # Author notes (optional)
@@ -21,7 +23,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-06-03T00:00:00Z"
+date: "2023-12-03T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -34,14 +36,14 @@ publishDate: "2020-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Conference on Computer Vision and Pattern Recognition 2022*
-publication_short: In *CVPR 2022*
+publication: In *Thirty-seventh Conference on Neural Information Processing Systems*
+publication_short: In *NeurIPS 2023*
 
-abstract: "Current 3D object detectors for autonomous driving are almost entirely trained on human-annotated data. Although of high quality, the generation of such data is laborious and costly, restricting them to a few specific locations and object types. This paper proposes an alternative approach entirely based on unlabeled data, which can be collected cheaply and in abundance almost everywhere on earth. Our approach leverages several simple common sense heuristics to create an initial set of approximate seed labels. For example, relevant traffic participants are generally not persistent across multiple traversals of the same route, do not fly, and are never under ground. We demonstrate that these seed labels are highly effective to bootstrap a surprisingly accurate detector through repeated self-training without a single human annotated label. Code is available at https://github.com/YurongYou/MODEST."
+abstract: "Recent advances in machine learning have shown that Reinforcement Learning from Human Feedback (RLHF) can improve machine learning models and align them with human preferences. Although very successful for Large Language Models (LLMs), these advancements have not had a comparable impact in research for autonomous vehicles—where alignment with human expectations can be imperative. In this paper, we propose to adapt similar RL-based methods to unsupervised object discovery, i.e. learning to detect objects from LiDAR points without any training labels. Instead of labels, we use simple heuristics to mimic human feedback. More explicitly, we combine multiple heuristics into a simple reward function that positively correlates its score with bounding box accuracy, i.e., boxes containing objects are scored higher than those without. We start from the detector’s own predictions to explore the space and reinforce boxes with high rewards through gradient updates. Empirically, we demonstrate that our approach is not only more accurate, but also orders of magnitudes faster to train compared to prior works on object discovery. Code is available at https://github.com/katieluo88/DRIFT."
 
 # Summary. An optional shortened abstract.
-summary: "<i>CVPR 2022</i> <br>
-Discovering 3D objects from repeated traversals and self training."
+summary: "<i>NeurIPS 2023</i> <br>
+Discovering 3D objects with reward fine-tuning, drawing inspiration from the RL community."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: ["self-driving", "first-author", "featured"]
@@ -54,8 +56,8 @@ featured: True
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2203.15882.pdf'
-url_code: 'https://github.com/YurongYou/MODEST'
+url_pdf: 'https://arxiv.org/pdf/2310.19080.pdf'
+url_code: 'https://github.com/katieluo88/DRIFT'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -66,7 +68,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Visualizations of MODEST outputs. We show LiDAR scans from two scenes in the Lyft dataset in two rows. From zero labels, our method is able to bootstrap a detector that achieves results close to the ground truth.'
+  caption: 'Illustration of the reward components. The reward encourages boxes that have proper shape and alignment, and capture more dynamic points and few background points.'
   focal_point: ""
   preview_only: false
 

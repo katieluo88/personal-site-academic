@@ -27,6 +27,13 @@ experience:
     company_url: 'https://www.cs.cornell.edu/~kilian/students/students.html'
     location: Ithaca, USA
     date_start: '2020-08-15'
+
+  # - title: Visiting Student Researcher
+  #   company: Pioneer Center for AI
+  #   company_url: 'https://di.ku.dk/ai-centre/'
+  #   location: Copenhagen, Denmark
+  #   date_start: '2022-06-15'
+  #   date_end: '2022-08-15'
   
   - title: Graduate Student Researcher
     company: SE(3) Computer Vision Group at Cornell Tech

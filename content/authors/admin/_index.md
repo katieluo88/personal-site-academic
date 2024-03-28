@@ -6,7 +6,7 @@ title: Katie Luo
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student @ Cornell University
+role: Ph.D. Candidate @ Cornell University
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,24 +14,35 @@ organizations:
   url: https://www.cornell.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning and computer vision, particularly in the context of autonomous driving.
+bio: My research interests include machine learning and computer vision, particularly in the context of embodied agents.
 
 # Interests to show in About widget
 interests:
 - Machine Learning
-- Robotics - Autonomous Driving
 - Computer Vision
+- Autonomous Driving
 
 # Education to show in About widget
+# education:
+#   courses:
+#   - course: PhD in Computer Science
+#     institution: Cornell University
+#     year: 2020 - Present
+#   - course: MS in Electrical Engineering and Computer Sciences
+#     institution: University of California, Berkeley
+#     year: 2018 - 2019
+#   - course: BSc in Electrical Engineering and Computer Sciences
+#     institution: University of California, Berkeley
+#     year: 2015 - 2018
 education:
   courses:
   - course: PhD in Computer Science
     institution: Cornell University
     year: 2020 - Present
-  - course: MS in Electrical Engineering and Computer Sciences
+  - course: MS in Elec. Eng. and Computer Sciences
     institution: University of California, Berkeley
     year: 2018 - 2019
-  - course: BSc in Electrical Engineering and Computer Sciences
+  - course: BSc in Elec. Eng. and Computer Sciences
     institution: University of California, Berkeley
     year: 2015 - 2018
 
@@ -73,10 +84,38 @@ email: "kzl6@cornell.edu"
 highlight_name: false
 ---
 
-Hello! I am a Ph.D. student at Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Serge Belongie. My research interests mostly lies in machine learning and computer learning for real world applications.
+Hello! I am a Ph.D. candidate at Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Bharath Hariharan. My research interests mostly lies in machine learning and computer vision. I am fortunate to have been supported by a Cornell University Fellowship and an Nvidia Graduate Student Fellowship.
 
-Before joining Cornell University, I had the pleasure of working on a variety of topics including autonomous driving, deep reinforcement learning, and applications of natural language processing.
-
+Before joining Cornell University, I had the pleasure of working on a variety of topics including applied machine learning, deep reinforcement learning, and applications of natural language processing. View my professional summary <a href="https://drive.google.com/file/d/1MFqobFcvvBqLT06x_NIW7LZr14Ck4wGl/view?usp=sharing" target="_blank">here</a>.
 <!-- View my professional summary {{< staticref "media/resume.pdf" "newtab" >}}here{{< /staticref >}}. -->
-View my professional summary <a href="https://drive.google.com/file/d/1wdHxgh6uqWbLYwUdXIuERhGv2TcPn6qg/view?usp=sharing" target="_blank">here</a>.
+<!-- View my professional summary <a href="https://drive.google.com/file/d/1MFqobFcvvBqLT06x_NIW7LZr14Ck4wGl/view?usp=sharing" target="_blank">here</a>. -->
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+
+<h2>News:</h2>
+
+<table style="border-collapse: collapse; border: none; background-color: transparent;">
+        <tr style="border: none; background-color: transparent;">
+            <td style="border: none; background-color: transparent;">
+            [Apr. 2024]
+            </td>
+            <td style="border: none; background-color: transparent;">
+            Research exchange to the University of Sydney, Australian Centre for Robotics.
+            </td>
+        </tr>
+        <tr style="border: none; background-color: transparent;">
+            <td style="border: none; background-color: transparent;">
+            [Mar. 2024]
+            </td>
+            <td style="border: none; background-color: transparent;">
+            Call for papers for the AD Simulations workshop at CVPR! Look out for the details on the <a href="https://agents4ad.github.io/">workshop website</a>
+            </td>
+        </tr>
+        <tr style="border: none; background-color: transparent;">
+            <td style="border: none; background-color: transparent;">
+            [Mar. 2024]
+            </td>
+            <td style="border: none; background-color: transparent;">
+            Giving a presentation at the Graduate Fellow Fast Forward talks at Nvidia GTC 2024!
+            </td>
+        </tr>
+    </table>    

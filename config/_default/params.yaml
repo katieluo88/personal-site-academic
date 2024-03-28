@@ -8,7 +8,9 @@
 theme: earth  # rose
 day_night: true
 font: my_rose
-font_size: M
+font_size: S
+# font_size_title: XS
+# title_font_size: XS
 
 # SEO
 

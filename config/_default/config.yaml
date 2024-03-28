@@ -4,7 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Katie Luo # Website name
-baseurl: 'https://www.cs.cornell.edu/~katieluo/' # Website URL
+# baseurl: 'https://www.cs.cornell.edu/~katieluo/' # Website URL 'file:///Users/katieluo/projects/personal-site-academic/public/'
+baseurl: 'file:///Users/katieluo/projects/personal-site-academic/public/'
 copyright: '© 2022 Katie Luo' # Footer text, e.g. '© {year} Me'
 
 ############################

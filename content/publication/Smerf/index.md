@@ -1,27 +1,27 @@
 ---
 # Activate this widget? true/false
 active: false
-title: "Learning to Detect Mobile Objects from LiDAR Scans Without Labels"
+title: "Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Yurong You*
-- Katie Z Luo*
-- Cheng Perng Phoo
-- Wei-Lun Chao 
-- Wen Sun 
-- Bharath Hariharan 
-- Mark Campbell
+- Katie Z Luo
+- Xinshuo Weng
+- Yan Wang
+- Shuang Wu
+- Jie Li
 - Kilian Q. Weinberger
+- Yue Wang
+- Marco Pavone
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-06-03T00:00:00Z"
+date: "2024-01-03T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -34,31 +34,31 @@ publishDate: "2020-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Conference on Computer Vision and Pattern Recognition 2022*
-publication_short: In *CVPR 2022*
+publication: In *International Conference on Robotics and Automation 2024*
+publication_short: In *ICRA 2024*
 
-abstract: "Current 3D object detectors for autonomous driving are almost entirely trained on human-annotated data. Although of high quality, the generation of such data is laborious and costly, restricting them to a few specific locations and object types. This paper proposes an alternative approach entirely based on unlabeled data, which can be collected cheaply and in abundance almost everywhere on earth. Our approach leverages several simple common sense heuristics to create an initial set of approximate seed labels. For example, relevant traffic participants are generally not persistent across multiple traversals of the same route, do not fly, and are never under ground. We demonstrate that these seed labels are highly effective to bootstrap a surprisingly accurate detector through repeated self-training without a single human annotated label. Code is available at https://github.com/YurongYou/MODEST."
+abstract: "Autonomous driving has traditionally relied heavily on costly and labor-intensive High Definition (HD) maps, hindering scalability. In contrast, Standard Definition (SD) maps are more affordable and have worldwide coverage, offering a scalable alternative. In this work, we systematically explore the effect of SD maps for real-time lane-topology understanding. We propose a novel framework to integrate SD maps into online map prediction and propose a Transformer-based encoder, SD Map Encoder Representations from transFormers, to leverage priors in SD maps for the lane-topology prediction task. This enhancement consistently and significantly boosts (by up to 60%) lane detection and topology prediction on current state-of-the-art online map prediction methods without bells and whistles and can be immediately incorporated into any Transformer-based lane-topology method. Code is available at: https://github.com/NVlabs/SMERF."
 
 # Summary. An optional shortened abstract.
-summary: "<i>CVPR 2022</i> <br>
-Discovering 3D objects from repeated traversals and self training."
+summary: "<i>ICRA 2024</i> <br>
+The first work to investigate how to leverage standard definition maps to augment lane topology reasoning."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: ["self-driving", "first-author", "featured"]
 
 # Display this page in the Featured widget?
-featured: True
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2203.15882.pdf'
-url_code: 'https://github.com/YurongYou/MODEST'
+url_pdf: 'https://arxiv.org/pdf/2311.04079v1.pdf'
+url_code: 'https://github.com/NVlabs/SMERF'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://katieluo88.github.io/SMERF/'
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -66,7 +66,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Visualizations of MODEST outputs. We show LiDAR scans from two scenes in the Lyft dataset in two rows. From zero labels, our method is able to bootstrap a detector that achieves results close to the ground truth.'
+  caption: 'Motivation figure for SMERF. We are the first work to augment lane-topology prediction with standard definition maps.'
   focal_point: ""
   preview_only: false
 
@@ -85,3 +85,5 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+Check out our [project page](https://katieluo88.github.io/SMERF/) for demos, code, and more.
