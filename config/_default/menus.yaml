@@ -19,6 +19,9 @@ main:
   - name: Experiences
     url: '#industry'
     weight: 40
+  - name: Talks
+    url: '#talks'
+    weight: 50
   # - name: Posts
   #   url: '#posts'
   #   weight: 60

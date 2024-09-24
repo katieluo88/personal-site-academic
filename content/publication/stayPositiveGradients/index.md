@@ -34,9 +34,11 @@ publication_types: ["1"]
 publication: In *Fifth Workshop on Computer Vision for AR/VR, International Conference on Computer Vision 2021*
 publication_short: In *CV4ARVR Workshop, ICCV 2021*
 
-abstract: "In this work, we address an important problem of optical see-through (OST) augmented reality: non-negative image synthesis. Most of the image generation methods fail under this condition since they assume full control over each pixel and cannot create darker pixels by adding light. In order to solve the non-negative image generation problem in AR im-age synthesis, prior works have attempted to utilize optical illusion to simulate human vision but fail to preserve light-ness constancy well under situations such as high dynamic range. In our paper, we instead propose a method that is able to preserve lightness constancy at a local level, thus capturing high-frequency details. Compared with existing work, our method shows strong performance in image-to-image translation tasks, particularly in scenarios such aslarge scale images, high resolution images, and high dy-namic range image transfer."
+abstract: "In this work, we address an important problem of optical see-through (OST) augmented reality: non-negative image synthesis. Most of the image generation methods fail under this condition since they assume full control over each pixel and cannot create darker pixels by adding light. In order to solve the non-negative image generation problem in AR im-age synthesis, prior works have attempted to utilize optical illusion to simulate human vision but fail to preserve lightness constancy well under situations such as high dynamic range. In our paper, we instead propose a method that is able to preserve lightness constancy at a local level, thus capturing high-frequency details. Compared with existing work, our method shows strong performance in image-to-image translation tasks, particularly in scenarios such aslarge scale images, high resolution images, and high dynamic range image transfer."
 
 # Summary. An optional shortened abstract.
+summary: "<i>CV4ARVR, ICCV 2021</i>  <br>
+Solving non-negative image generation at a local level."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: ["ar"]

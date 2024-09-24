@@ -44,7 +44,7 @@ summary: "<i>CVPR 2022</i> <br>
 Discovering 3D objects from repeated traversals and self training."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["self-driving", "first-author", "featured"]
+tags: ["self-driving", "first-author", "featured", "conference"]
 
 # Display this page in the Featured widget?
 featured: True

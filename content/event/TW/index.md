@@ -1,17 +1,17 @@
 ---
-title: The Under-Utilized Information in Repeated Traversals for Autonomous Vehicles
+title: Leveraging Repeated Traversals for Self-Driving Perception
 
-event: Pioneer Center, P1 Cafe
-event_url: https://www.aicentre.dk/the-centre-p1
+event: Invited Talk at NTHU (hosted by Prof. Min Sun) and NTU (hosted by Prof. Frank Wang)
+event_url: https://www.facebook.com/aliensun/posts/pfbid0X5xjmLJRTp5ETYhhUpt51RcembfvNs9TedtGjEZT8NFjMH67Jp4NPUotus1reCPUl
 
-location: Pioneer Center, Copenhagen, Denmark
+location: National Tsing Hua University, National Taiwan University
 
-summary: The inaugural talk for the P1 Cafe, Pioneer Center. Introducing works from the self-driving research group at Cornell University.
+summary: Introduced works using information derived from repeated traversals to improve perception at invited talks to NTHU and NTU, Taiwan.
 # abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-06-02"
+date: "2023-04-06"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: true
 

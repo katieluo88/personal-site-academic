@@ -1,7 +1,7 @@
 ---
 # Activate this widget? true/false
 active: false
-title: "Learning to Detect Mobile Objects from LiDAR Scans Without Labels"
+title: "Reward Finetuning for Faster and More Accurate Unsupervised Object Discovery"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -46,7 +46,7 @@ summary: "<i>NeurIPS 2023</i> <br>
 Discovering 3D objects with reward fine-tuning, drawing inspiration from the RL community."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["self-driving", "first-author", "featured"]
+tags: ["self-driving", "first-author", "featured", "conference"]
 
 # Display this page in the Featured widget?
 featured: True

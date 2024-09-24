@@ -96,6 +96,14 @@ Before joining Cornell University, I had the pleasure of working on a variety of
 <table style="border-collapse: collapse; border: none; background-color: transparent;">
         <tr style="border: none; background-color: transparent;">
             <td style="border: none; background-color: transparent;">
+            [Jun. 2024]
+            </td>
+            <td style="border: none; background-color: transparent;">
+            Began my internship with the Waymo Perception Research Team!
+            </td>
+        </tr>
+        <tr style="border: none; background-color: transparent;">
+            <td style="border: none; background-color: transparent;">
             [Apr. 2024]
             </td>
             <td style="border: none; background-color: transparent;">

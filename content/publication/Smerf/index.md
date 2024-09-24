@@ -44,7 +44,7 @@ summary: "<i>ICRA 2024</i> <br>
 The first work to investigate how to leverage standard definition maps to augment lane topology reasoning."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["self-driving", "first-author", "featured"]
+tags: ["self-driving", "first-author", "featured", "conference"]
 
 # Display this page in the Featured widget?
 featured: false

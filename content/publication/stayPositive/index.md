@@ -43,7 +43,7 @@ summary: "<i>CVPR 2021</i>  &nbsp;<span style='color:red'>__(Oral)__</span><br>
 Solving non-negative image generation for Augmented Reality."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["ar", "first-author", "featured"]
+tags: ["ar", "first-author", "featured", "conference"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -57,7 +57,7 @@ url_pdf: 'https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Stay_Positiv
 url_code: 'https://github.com/katieluo88/StayPositive'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/'  # 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/stayPositive.html'
+url_project: 'https://katieluo88.github.io/StayPositive/'  # 'https://www.cs.cornell.edu/~katieluo/publication/staypositive/stayPositive.html'
 url_slides: ''
 url_source: ''
 url_video: 'https://www.youtube.com/watch?v=wYEbZWtQ-T4'
@@ -86,4 +86,4 @@ image:
 # slides: example
 ---
 
-Check out our [project page](stayPositive.html) for demos, code, and more.
+Check out our [project page](https://katieluo88.github.io/StayPositive/) for demos, code, and more.

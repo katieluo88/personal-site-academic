@@ -5,12 +5,16 @@ To update:
 check with: ssh kzl6@linux.coecis.cornell.edu
 run:
  - hugo
- - cp content/publication/stayPositive/index.html public/publication/staypositive/.
  - [update all the co-authorship stars manually ;--;]
  - scp -r public/* kzl6@linux.coecis.cornell.edu:/cs/people/kzl6
 
+
+No longer needed: 
+ - cp content/publication/stayPositive/index.html public/publication/staypositive/.
+
 todos:
- - fix the size adjustments... currently it still looks bad :(
+ - update "updates section whenever incoming"
+ - add featured works in bold or something? somehow highlight them
 
 <p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
 

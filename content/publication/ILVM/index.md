@@ -38,9 +38,11 @@ publication_short: In *ECCV 2020*
 abstract: In order to plan a safe maneuver an autonomous vehicle must accurately perceive its environment, and understand the interactions among traffic participants. In this paper, we aim to learn scene-consistent motion forecasts of complex urban traffic directly from sensor data. In particular, we propose to characterize the joint distribution over future trajectories via an implicit latent variable model. We model the scene as an interaction graph and employ powerful graph neural networks to learn a distributed latent representation of the scene. Coupled with a deterministic decoder, we obtain trajectory samples that are consistent across traffic participants, achieving state-of-the-art results in motion forecasting and interaction understanding. Last but not least, we demonstrate that our motion forecasts result in safer and more comfortable motion planning.
 
 # Summary. An optional shortened abstract.
+summary: "<i>ECCV 2020</i> <br>
+Motion forecasting algorithm using generative modeling for scene consistent predictions."
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["self-driving"]
+tags: ["self-driving", "conference"]
 
 # Display this page in the Featured widget?
 featured: false

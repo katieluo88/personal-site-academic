@@ -1,17 +1,17 @@
 ---
-title: The Under-Utilized Information in Repeated Traversals for Autonomous Vehicles
+title: Leveraging Auxiliary Information for Self-Driving Perception
 
-event: Pioneer Center, P1 Cafe
-event_url: https://www.aicentre.dk/the-centre-p1
+event: Graduate Fellow Fast Forward Talks, Nvidia GTC 2024
+event_url: https://www.nvidia.com/gtc/session-catalog/?search=S61185#/
 
-location: Pioneer Center, Copenhagen, Denmark
+location: Nvidia GTC, San Jose Convention Center
 
-summary: The inaugural talk for the P1 Cafe, Pioneer Center. Introducing works from the self-driving research group at Cornell University.
+summary: The fast-forward talk following the Nvidia 2023 Graduate Student Fellowship year at the Nvidia GTC 2024. Discussed incorporating auxiliary information such as structure and standard definition maps to improve self-driving perception.
 # abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-06-02"
+date: "2024-03-19"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: true
 
